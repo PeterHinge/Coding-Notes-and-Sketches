@@ -11,3 +11,12 @@ class Node:
 
     def get_value(self):
         return self.value
+
+
+"""Example:
+a = Node(1)
+b = Node(2, a)
+
+print(a.get_value())
+print(b.get_next_node().get_value())
+"""
