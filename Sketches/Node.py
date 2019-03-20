@@ -2,6 +2,7 @@ class Node:
     def __init__(self, value, next_node=None):
         self.value = value
         self.next_node = next_node
+        print("Creating node with the value: {} and with a link to node: {}.".format(self.value, self.next_node))
 
     def set_next_node(self, next_node):
         self.next_node = next_node

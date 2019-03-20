@@ -44,6 +44,10 @@ class Search:
                     depth_counter += 1
                     continue
 
+                else:
+                    print("Something went wrong!")
+                    break
+
         # Error handling:
         except ValueError:
             print("{} not found in list.".format(self.target_value))
